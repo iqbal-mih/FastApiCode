@@ -1,0 +1,10 @@
+# debug_import.py
+# Run: python debug_import.py
+import importlib, traceback
+try:
+    m = importlib.import_module('App.main')
+    print("module file:", getattr(m, "__file__", None))
+    print("has app:", hasattr(m, "app"))
+    print("app repr:", repr(getattr(m, "app", None)))
+except Exception:
+    traceback.print_exc()
