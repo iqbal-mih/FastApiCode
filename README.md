@@ -7,7 +7,7 @@
 
 A FastAPI web service that predicts the likelihood of heart disease from patient health measurements. The API loads a trained scikit-learn `RandomForestClassifier` model from `model/heart_disease_model.joblib` and exposes simple endpoints for health checks, model information, and predictions.
 
-Live app: [https://fastapicode-hxus.onrender.com](https://fastapicode-hxus.onrender.com)
+Live app: https://fastapicode-hxus.onrender.com/docs
 
 ## Features
 
